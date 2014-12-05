@@ -2,16 +2,15 @@
 
 body {
   text-align: center;
-  font-family: sans-serif; }
+  font-family: sans-serif;
+}
 
 h1 {
-  color: rgba(0, 0, 0, .3);
-  font-weight: bold;
-  font-size: 32px;
+  font-weight: bolder;
+  font-size: 52px;
   text-align: center;
   letter-spacing: -1px;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
-  padding: 350px 0 10px;
+  padding: 3%;
   margin: 0; }
 
 .doc {
@@ -50,4 +49,23 @@ h1 {
   to {
     -webkit-transform: scale(1);
   }
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(34,34,34);
+}
+
+.center {
+    text-align: center;
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(57, 125, 142);
 }
